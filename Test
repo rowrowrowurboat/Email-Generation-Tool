@@ -1,0 +1,11 @@
+import os
+
+# Replace 'your_env_name' with the name of your conda environment
+conda create -n dash_env_test python=3.11
+
+# Activate the conda environment
+activate_env_command = f'conda activate {dash_env_test}'
+os.system(activate_env_command)
+
+# Your code goes here
+print("Conda environment activated!")
